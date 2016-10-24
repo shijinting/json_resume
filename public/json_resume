@@ -8,7 +8,7 @@
     "website": "http://sjting.wix.com/eportfolio",
     "summary": "I am an experienced programmer with strong business development skill who highly interested in projects that require both conceptual and analytical thinking. Fully-committed to designing interface and experiences that users will love. I'm always eager to learn from anyone regardless of the industry they're working in. ",
     "location": {
-      "address": "Mutiara Perdana, Jalan PJS 7/15",
+      "address": "Mutiara Perdana, Jalan PJS7",
       "postalCode": "46150",
       "city": "Subang Jaya",
       "countryCode": "MY",
@@ -26,7 +26,7 @@
     "position": "Elite team lead",
     "website": "http://infopro.com.my",
     "year": "2015",
-    "summary": "Design and developed responsive web application for bank agencies",
+    "summary": ["Design and developed responsive web application for bank agencies"],
     "highlights": [
       "Built using DOJO framework"
     ]

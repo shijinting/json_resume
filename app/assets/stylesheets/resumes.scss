@@ -1,3 +1,56 @@
 // Place all the styles related to the resumes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+header, main, footer {
+  padding-left: 300px;
+}
+
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+.side-nav{
+  .userView {
+    overflow: hidden;
+    position: relative;
+    padding: 5px 5px 0;
+    margin-bottom: 8px;
+    a {
+      height: auto;
+      color: rgba(0,0,0,0.87);
+      display: block;
+      font-size: 14px;
+      font-weight: 500;
+      height: 48px;
+      line-height: 48px;
+      padding: 0 8px !important;
+    }
+    .background {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
+    .circle {
+        height: 64px;
+        width: 64px;
+    }
+  }
+}
+
+.h36 {
+  height: 36px !important;
+}
+.mr10 {
+  margin-right: 10px;
+}
+.themecolor {
+    background-color: #ee6e73 !important;
+}
+.themecolor-text {
+    color: #ee6e73 !important;
+}
