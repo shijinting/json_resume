@@ -2,6 +2,7 @@
   "intro": {
     "name": "Shi Jin Ting",
     "label": "Software Engineering",
+    "image": "portrait.jpg",
     "email": "shijinting96@gmail.com",
     "phone": "0129832169",
     "website": "http://sjting.wix.com/eportfolio",
@@ -155,6 +156,7 @@
     ]
   },{
     "name": "Soft Skill",
+    "level": "",
     "keywords": [
       "Business development",
       "Project management",
@@ -164,6 +166,7 @@
     ]
   },{
     "name": "Other",
+    "level": "",
     "keywords":[
       "UI & UX design",
       "SEO and Google Analytics",
@@ -182,7 +185,7 @@
   }],
   "interests": [{
     "name": "Music",
-    "instruments": [
+    "keywords": [
       "Drum",
       "Piano",
       "Guitar"
