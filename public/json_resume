@@ -1,0 +1,196 @@
+{
+  "intro": {
+    "name": "Shi Jin Ting",
+    "label": "Software Engineering",
+    "email": "shijinting96@gmail.com",
+    "phone": "0129832169",
+    "website": "http://sjting.wix.com/eportfolio",
+    "summary": "I am an experienced programmer with strong business development skill who highly interested in projects that require both conceptual and analytical thinking. Fully-committed to designing interface and experiences that users will love. I'm always eager to learn from anyone regardless of the industry they're working in. ",
+    "location": {
+      "address": "Mutiara Perdana, Jalan PJS 7/15",
+      "postalCode": "46150",
+      "city": "Subang Jaya",
+      "countryCode": "MY",
+      "state": "Selangor"
+    },
+    "profiles": [{
+      "network": "Facebook",
+      "username": "Ting ShiJin",
+      "url": "fb.me/ting.shijin"
+    }]
+  },
+  "experiences": [{
+    "category": "Project",
+    "company": "Infopro Sdn Bhd",
+    "position": "Elite team lead",
+    "website": "http://infopro.com.my",
+    "year": "2015",
+    "summary": "Design and developed responsive web application for bank agencies",
+    "highlights": [
+      "Built using DOJO framework"
+    ]
+  },{
+    "category": "Entrepreneurship and startups",
+    "company": "Little Hunter Enterprise",
+    "position": "President",
+    "website": "http://littlehunter.com.my",
+    "year": "2014",
+    "summary": ["Initiated Traquer - Social empowered road safety app, the voice of public transport users (traquer.my)", "Founded Little Hunter - On demand T-shirt platform that helps artists, designers and creators to sell high quality products with no cost or risk. (littlehunter.com.my)"],
+    "highlights": [
+      "Started the company"
+    ]
+  }],
+  "outreach": [{
+    "eventName": "TEDxUTAR",
+    "role": "Speaker",
+    "year": "2016",
+    "summary": "Presented Traquer with the theme Redefine Possibilities"
+  },{
+    "eventName": "Aspiring Youth Leadership Conference",
+    "role": "Panelist",
+    "year": "2016",
+    "summary": "Sharing leadership experiences in Aspiring Youth Leadership Conference at Nottingham University"
+  },{
+    "eventName": "MaGIC-Stanford Go2Market",
+    "role": "Participant",
+    "year": "2015",
+    "summary": "Exposed to leading-edge knowledge and frameworks in the areas such as business model strategy, pricing, accounting, marketing, go-to- market strategy, and pitching to investors"
+  },{
+    "eventName": "We Speak Code with UNICEF Malaysia",
+    "role": "Volunteer",
+    "year": "2014",
+    "summary": "Taught programming concepts and practical hands on for young Malaysian kids with disabilities"
+  },{
+    "eventName": "Imaginehack Hackathon",
+    "role": "Creative design lead",
+    "year": "2014",
+    "summary": "The first hackathon in Taylor's University"
+  }],
+  "education": [{
+    "institution": "Taylor's University",
+    "area": "Software Engineering",
+    "studyType": "Bachelor",
+    "startYear": "2014",
+    "endYear": "2018",
+    "gpa": "3.8"
+  }],
+  "awards": [{
+    "title": "EO Global Student Entrepreneur Award",
+    "date": "2016",
+    "awarder": "Entrepreneur Organisation",
+    "summary": "Top Student Entrepreneurs in Malaysia"
+  },{
+    "title": "Lion's Den Award",
+    "date": "2015",
+    "awarder": "World Entrepreneurship Forum",
+    "summary": "Selected to the final 4 out of 40 business plan to present to 4 experienced Lion investors at World Entrepreneurship Forum in Hangzhou"
+  },{
+    "title": "Imagine Cup National Finals",
+    "date": "2015",
+    "awarder": "Microsoft Malaysia",
+    "summary": "Traquer won 1st-runner up Imagine Cup and Cyberview Smart City Challenge"
+  },{
+    "title": "Taylor's World Class Scholarship",
+    "date": "2015",
+    "awarder": "Full scholarship awarded by Taylor's and IBM"
+  },{
+    "title": "VVIP MaGIC Open Ceremony",
+    "date": "2014",
+    "awarder": "Microsoft Malaysia & MaGIC",
+    "summary": "Trainer for students who ready to present their programming learning outcomes to the President of United State Barack Obama"
+  }],
+  "publications": [{
+    "name": "Featuring 9 Young Entrepreneur in Malaysia",
+    "publisher": "Vulcan Post",
+    "releaseYear": "2016"
+  },{
+    "name": "Live Interview",
+    "publisher": "Zhejiang TV",
+    "releaseYear": "2014",
+    "summary": "Interviewed during World Entrepreneurship Forum in Hangzhou"
+  },{
+    "name": "Exclusive Live Interview",
+    "publisher": "NTV7",
+    "releaseYear": "2014",
+    "summary": "NTV 7 Good Morning Tai Tai Show"
+  },{
+    "name": "Microsoft We Speak Code",
+    "publisher": "Sin Chew Newspaper",
+    "releaseYear": "2014",
+    "summary": "Organised Hour of Code in Taylor's University"
+  },{
+    "name": "Traquer Mobile App",
+    "publisher": "China Press & Sin Chew Newspaper",
+    "releaseYear": "2014",
+    "summary": "Featuring Traquer Mobile App"
+  }],
+  "skills": [{
+    "name": "Web Development",
+    "level": "Master",
+    "keywords": [
+      "HTML5",
+      "SASS & CSS3",
+      "Javascript & jQuery",
+      "Ruby on Rails",
+      "PolymerJS",
+      "Bootstrap"
+    ]
+  },{
+    "name": "Hybrid Mobile App Development",
+    "level": "Advance",
+    "keywords": [
+      "Phonegap",
+      "Ionic",
+      "AngularJS"
+    ]
+  },{
+    "name": "General purpose programming",
+    "level": "Advance",
+    "keywords": [
+      "C++",
+      "Java",
+      ".NET",
+      "PHP",
+      "Ruby"
+    ]
+  },{
+    "name": "Soft Skill",
+    "keywords": [
+      "Business development",
+      "Project management",
+      "Strategy & critical thinking",
+      "Sales & Marketing",
+      "Event planning"
+    ]
+  },{
+    "name": "Other",
+    "keywords":[
+      "UI & UX design",
+      "SEO and Google Analytics",
+      "Photoshop & Illustrator"
+    ]
+  }],
+  "languages": [{
+    "name": "English",
+    "level": "Fluent"
+  },{
+    "name": "Chinese",
+    "level": "Native speaker"
+  },{
+    "name": "Malay",
+    "level": "Normal"
+  }],
+  "interests": [{
+    "name": "Music",
+    "instruments": [
+      "Drum",
+      "Piano",
+      "Guitar"
+    ]
+  }],
+  "references": [{
+    "name": "Tee Wee Jing",
+    "reference": "Lecturer School of Computing and IT",
+    "contact": "016-2868990"
+  }]
+}

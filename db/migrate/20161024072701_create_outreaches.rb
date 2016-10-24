@@ -1,0 +1,8 @@
+class CreateOutreaches < ActiveRecord::Migration
+  def change
+    create_table :outreaches do |t|
+
+      t.timestamps null: false
+    end
+  end
+end
