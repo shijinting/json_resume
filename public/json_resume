@@ -17,7 +17,7 @@
     "profiles": [{
       "network": "Facebook",
       "username": "Ting ShiJin",
-      "url": "fb.me/ting.shijin"
+      "url": "http://fb.me/ting.shijin"
     }]
   },
   "experiences": [{
@@ -93,7 +93,8 @@
   },{
     "title": "Taylor's World Class Scholarship",
     "date": "2015",
-    "awarder": "Full scholarship awarded by Taylor's and IBM"
+    "awarder": "Taylor's, IBM & Minister of Higher Education",
+    "summary": "Full scholarship awarded by Taylor's and IBM"
   },{
     "title": "VVIP MaGIC Open Ceremony",
     "date": "2014",

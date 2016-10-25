@@ -1,6 +1,99 @@
-
+<div class="row">
+  <h4 class="themecolor-text"><%= material_icon.edit.css_class('md-36 mr10 left') %>Experiences</h4>
+  <hr>
+  <% @experiences.each do |exp| %><p>
+      <span><strong>Category: <%= exp.category %></strong></span><br>
+      <span>Company: <%= exp.company %></span><br>
+      <span>Position: <%= exp.position %></span><br>
+      <span>Website: <%= exp.website %></span><br>
+      <span>Year: <%= exp.year %></span><br><br>
+      <span><strong><u>Summary</u></strong><% exp.summary.each do |sum| %><ul><li><%= sum %></li></ul><%end%></span>
+      <span>Highlights: <%= exp.highlights[0] %></span>
+  </p><br>
+  <% end %>
+</div>
+<div class="row">
+  <h4 class="themecolor-text"><%= material_icon.business_center.css_class('md-36 mr10 left') %>Outreach</h4>
+  <hr>
+  <% @outreaches.each do |outreach| %><p>
+      <span><strong>Event name: <%= outreach.eventName %></strong></span><br>
+      <span>Role: <%= outreach.role %></span><br>
+      <span>Year: <%= outreach.year %></span><br>
+      <span>Summary: <%= outreach.summary %></span><br>
+  </p><br>
+  <% end %>
+</div>
+<div class="row">
+  <h4 class="themecolor-text"><i class="fa fa-graduation-cap mr10 left" aria-hidden="true"></i>Education</h4>
+  <hr>
+  <p>
+      <span><strong>Institution: <%= @education.institution %></strong></span><br>
+      <span>Area: <%= @education.area %></span><br>
+      <span>Study Type: <%= @education.studyType %></span><br>
+      <span>Start: <%= @education.startYear %></span><br>
+      <span>End: <%= @education.endYear %></span><br>
+      <span>CGPA: <%= @education.gpa %></span><br>
+  </p>
+</div>
+<div class="row">
+  <h4 class="themecolor-text"><i class="fa fa-trophy mr10 left" aria-hidden="true"></i>Awards</h4>
+  <hr>
+  <% @awards.each do |award| %><p>
+      <span><strong>Title: <%= award.title %></strong></span><br>
+      <span>Date: <%= award.date %></span><br>
+      <span>Awarder: <%= award.awarder %></span><br>
+      <span>Summary: <%= award.summary %></span><br>
+  </p><br>
+  <% end %>
+</div>
+<div class="row">
+  <h4 class="themecolor-text"><%= material_icon.book.css_class('md-36 mr10 left') %>Publications</h4>
+  <hr>
+  <% @publications.each do |publication| %><p>
+      <span><strong>Name: <%= publication.name %></strong></span><br>
+      <span>Publisher: <%= publication.publisher %></span><br>
+      <span>Year Released: <%= publication.releaseYear %></span><br>
+  </p><br>
+  <% end %>
+</div>
+<div class="row">
+  <h4 class="themecolor-text"><%= material_icon.laptop_mac.css_class('md-36 mr10 left') %>Skills</h4>
+  <hr>
+  <% @skills.each do |skill| %><p>
+      <span><strong>Name: <%= skill.name %></strong></span><br>
+      <span>Level: <%= skill.level %></span><br>
+      <span><strong><u>Keywords</u></strong><% skill.keywords.each do |key| %><ul><li><%= key %></li></ul><%end%></span><br>
+  </p>
+  <% end %>
+</div>
+<div class="row">
+  <h4 class="themecolor-text"><%= material_icon.language.css_class('md-36 mr10 left') %>Languages</h4>
+  <hr>
+  <% @languages.each do |lang| %><p>
+      <span><strong>Name: <%= lang.name %></strong></span><br>
+      <span>Level: <%= lang.level %></span><br>
+  </p><br>
+  <% end %>
+</div>
+<div class="row">
+  <h4 class="themecolor-text"><%= material_icon.favorite.css_class('md-36 mr10 left') %>Interests</h4>
+  <hr>
+  <p>
+      <span><strong>Name: <%= @interest.name %></strong></span><br>
+      <span><strong><u>Keywords</u></strong><% @interest.keywords.each do |key| %><ul><li><%= key %></li></ul><%end%></span><br>
+  </p>
+</div>
+<div class="row">
+  <h4 class="themecolor-text"><%= material_icon.account_box.css_class('md-36 mr10 left') %>References</h4>
+  <hr>
+  <p>
+      <span><strong>Name: <%= @references.name %></strong></span><br>
+      <span>Reference: <%= @references.reference %></span><br>
+      <span>Contact: <%= @references.contact %></span><br>
+  </p>
+</div>
 <script>
-$(document).on('ready', function () {
-  $(".button-collapse").sideNav();
-});
+  $(document).on('ready', function () {
+    $(".button-collapse").sideNav();
+  });
 </script>
