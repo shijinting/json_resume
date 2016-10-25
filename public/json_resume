@@ -21,16 +21,6 @@
     }]
   },
   "experiences": [{
-    "category": "Project",
-    "company": "Infopro Sdn Bhd",
-    "position": "Elite team lead",
-    "website": "http://infopro.com.my",
-    "year": "2015",
-    "summary": ["Design and developed responsive web application for bank agencies"],
-    "highlights": [
-      "Built using DOJO framework"
-    ]
-  },{
     "category": "Entrepreneurship and startups",
     "company": "Little Hunter Enterprise",
     "position": "President",
@@ -39,6 +29,26 @@
     "summary": ["Initiated Traquer - Social empowered road safety app, the voice of public transport users (traquer.my)", "Founded Little Hunter - On demand T-shirt platform that helps artists, designers and creators to sell high quality products with no cost or risk. (littlehunter.com.my)"],
     "highlights": [
       "Started the company"
+    ]
+  },{
+    "category": "Freelance",
+    "company": "myErasoft Sdn Bhd",
+    "position": "Developer",
+    "website": "http://erasoft.com.my/web/",
+    "year": "2014",
+    "summary": ["Design and developed the website for Huizhou Malaysia - http://huizhoumalaysia.my/webpage/"],
+    "highlights": [
+      "Deployed using Joomla CMS"
+    ]
+  },{
+    "category": "Project",
+    "company": "Infopro Sdn Bhd",
+    "position": "Elite team lead",
+    "website": "http://infopro.com.my",
+    "year": "2015",
+    "summary": ["Design and developed responsive web application for bank agencies"],
+    "highlights": [
+      "Built using DOJO framework"
     ]
   }],
   "outreach": [{
