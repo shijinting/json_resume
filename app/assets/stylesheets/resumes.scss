@@ -1,10 +1,17 @@
 // Place all the styles related to the resumes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-header, main, footer {
+html, body {
+  height: 100%;
+}
+header, main {
   padding-left: 300px;
 }
-
+.valign-wrapper {
+  main {
+    padding-left: 0;
+  }
+}
 @media only screen and (max-width : 992px) {
   header, main, footer {
     padding-left: 0;
@@ -53,4 +60,20 @@ header, main, footer {
 }
 .themecolor-text {
     color: #ee6e73 !important;
+}
+
+.flash_notice, .flash_alert {
+padding: 8px 35px 8px 14px;
+margin-bottom: 20px;
+text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+border: 1px solid #fbeed5;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+border-radius: 4px;
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px;
+line-height: 20px;
+} .flash_notice {
+background-color: #dff0d8; border-color: #d6e9c6; color: #468847;
+} .flash_alert {
+background-color: #f2dede; border-color: #eed3d7; color: #b94a48;
 }

@@ -1,3 +1,35 @@
+<!--  Nav -->
+<ul id="slide-out" class="side-nav fixed blue-grey darken-4">
+  <li>
+    <div class="userView">
+      <a style="height:inherit"><img class="circle" src="<%= asset_path @basics.image %>" width="100px"></a>
+      <a><span class="white-text name"><%= @basics.name %></span></a>
+      <a class="h36"><span class="white-text email"><%= @basics.email %></span></a>
+      <a class="h36"><span class="white-text"><%= @basics.phone %></span></a>
+      <a class="h36"><span class="white-text"><%= @basics.website %></span></a>
+    </div>
+  </li>
+  <li>&nbsp;</li>
+  <li>
+    <div class="userView">
+      <a class="white-text"><i class="material-icons md-18">location_on</i><%= @basics.location["address"] %></a>
+      <a class="white-text"><%= @basics.location["postalCode"] %>, <%= @basics.location["city"] %></a>
+      <a class="white-text"><%= @basics.location["state"] %>, <%= @basics.location["countryCode"] %></a>
+    </div>
+  </li>
+  <li>&nbsp;</li>
+  <li>
+    <div class="userView">
+      <a href="<%= @basics.profiles[0]['url'] %>" target="_blank" class="white-text"><i class="fa fa-facebook fa-lg mr10" aria-hidden="true"></i><%= @basics.profiles[0]["username"] %></a>
+    </div>
+  </li>
+</ul>
+<a data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu black-text fa-2x hide-on-large-only"></i></a>
+<div class="row">
+  <h4 class="themecolor-text"><%= material_icon.person.css_class('md-36 mr10 left') %>Profile</h4>
+  <hr>
+  <p><%= @basics.summary %></p>
+</div>
 <div class="row">
   <h4 class="themecolor-text"><%= material_icon.edit.css_class('md-36 mr10 left') %>Experiences</h4>
   <hr>
@@ -92,6 +124,7 @@
       <span>Contact: <%= @references.contact %></span><br>
   </p>
 </div>
+<br><br>
 <script>
   $(document).on('ready', function () {
     $(".button-collapse").sideNav();

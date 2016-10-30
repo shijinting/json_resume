@@ -1,8 +1,36 @@
 class ResumeController < ApplicationController
   require 'json'
+  require 'rest_client'
+  require 'open-uri'
+  def new
+
+  end
+
+  def create
+    jsonFile = params[:resume][:jsonFile]
+    unless jsonFile.nil?
+      response = RestClient.post 'http://cyberweb.my/shijin/uploadJsonResume.php', {:resume => jsonFile, :multipart => true, :accept => :json}
+      json_response = JSON.parse(response)
+    end
+
+    if response.nil?
+      redirect_to root_path, :flash => { :alert => "Please upload json file" }
+    else
+      if json_response["success"] == 1
+        redirect_to resume_path(jsonFile.original_filename.partition('.').first)
+      else
+        redirect_to root_path, :flash => { :alert => json_response["message"] }
+      end
+    end
+  end
+
   def show
-    file = File.read('public/json_resume')
-    json = JSON.parse(file)
+    fileName = params[:id]
+    json = JSON.parse open('http://cyberweb.my/shijin/resume/' + fileName).read
+
+    # Introduction
+    intro = json["intro"]
+    @basics = Resume.new(intro["name"], intro["label"], intro["image"], intro["email"], intro["phone"], intro["website"], intro["summary"], intro["location"], intro["profiles"])
 
     # Experience
     @experiences = []

@@ -1,0 +1,11 @@
+<%= render 'layouts/messages' %>
+<%= form_for :resume, url: {action: "create"} do |f| %>
+  <div class="valign-wrapper row">
+    <div class="col s12 file-field input-field">
+      <div class="btn themecolor">
+        <span>Upload Json Resume<%= material_icon.cloud_upload.css_class('right') %></span>
+        <%= f.file_field :jsonFile, :onchange => "this.form.submit()" %>
+      </div>
+    </div>
+  </div>
+<% end %>
