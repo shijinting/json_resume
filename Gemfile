@@ -10,7 +10,6 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'pg'
-gem 'sqlite3'
 gem 'rest-client'
 # Sjting
 gem 'font-awesome-sass', '~> 4.4.0'
